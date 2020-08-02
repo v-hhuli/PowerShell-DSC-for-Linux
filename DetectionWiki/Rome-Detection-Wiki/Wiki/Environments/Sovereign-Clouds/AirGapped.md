@@ -1,0 +1,1 @@
+This folder contains guides relevant for AirGapped deployments (EX/RX)

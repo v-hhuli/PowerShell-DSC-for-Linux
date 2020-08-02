@@ -1,0 +1,50 @@
+/* @migen@ */
+/*
+**==============================================================================
+**
+** WARNING: THIS FILE WAS AUTOMATICALLY GENERATED. PLEASE DO NOT EDIT.
+** IF YOU NEED TO ADD RESOURCES, CREATE A SECOND .RC FILE, AND USE #INCLUDE TO MERGE THIS FILE
+** INTO THE .RC FILE YOU CREATED.
+**
+**==============================================================================
+*/
+STRINGTABLE
+{
+    1, "Base schema for all native configuration providers."
+    2, "Iptables"
+    3, "Ip6tables"
+    4, "yast"
+    5, "ufw"
+    6, "susefirewall2"
+    7, "firewalld"
+    8, "tcp"
+    9, "udp"
+    10, "icmp"
+    11, "Present"
+    12, "Absent"
+    13, "IPv4"
+    14, "IPv6"
+    15, "Allow"
+    16, "Block"
+    17, "ESTABLISHED"
+    18, "RELATED"
+    19, "NEW"
+    20, "INPUT"
+    21, "OUTPUT"
+    22, "FORWARD"
+    23, "top"
+    24, "after-top"
+    25, "before-end"
+    26, "end"
+    27, "Get resource states based on input configuration file."
+    28, "Configuration document that is to be applied."
+    29, "Flags passed to the providers. Reserved for future use."
+    30, "The current state of the specified configuration resources."
+    31, "Test resource states based on input configuration file."
+    32, "Configuration document that to be applied."
+    33, "Flags passed to the providers. reserved for future use."
+    34, "True if identical. False otherwise."
+    35, "Context information that the provider can use to optimize the set, This is optional."
+    36, "Set resource states based on input configuration file."
+    37, "Context information that the provider can use to optimize the set from TestTargetResource, This is optional."
+}

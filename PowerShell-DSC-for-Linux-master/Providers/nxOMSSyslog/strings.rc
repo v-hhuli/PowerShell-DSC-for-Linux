@@ -1,0 +1,53 @@
+/* @migen@ */
+/*
+**==============================================================================
+**
+** WARNING: THIS FILE WAS AUTOMATICALLY GENERATED. PLEASE DO NOT EDIT.
+** IF YOU NEED TO ADD RESOURCES, CREATE A SECOND .RC FILE, AND USE #INCLUDE TO MERGE THIS FILE
+** INTO THE .RC FILE YOU CREATED.
+**
+**==============================================================================
+*/
+STRINGTABLE
+{
+    1, "Base schema for all native configuration providers."
+    2, "kern"
+    3, "user"
+    4, "mail"
+    5, "daemon"
+    6, "auth"
+    7, "syslog"
+    8, "lpr"
+    9, "news"
+    10, "uucp"
+    11, "authpriv"
+    12, "ftp"
+    13, "cron"
+    14, "local0"
+    15, "local1"
+    16, "local2"
+    17, "local3"
+    18, "local4"
+    19, "local5"
+    20, "local6"
+    21, "local7"
+    22, "emerg"
+    23, "alert"
+    24, "crit"
+    25, "err"
+    26, "warning"
+    27, "notice"
+    28, "info"
+    29, "debug"
+    30, "Get resource states based on input configuration file."
+    31, "Configuration document that is to be applied."
+    32, "Flags passed to the providers. Reserved for future use."
+    33, "The current state of the specified configuration resources."
+    34, "Test resource states based on input configuration file."
+    35, "Configuration document that to be applied."
+    36, "Flags passed to the providers. reserved for future use."
+    37, "True if identical. False otherwise."
+    38, "Context information that the provider can use to optimize the set, This is optional."
+    39, "Set resource states based on input configuration file."
+    40, "Context information that the provider can use to optimize the set from TestTargetResource, This is optional."
+}

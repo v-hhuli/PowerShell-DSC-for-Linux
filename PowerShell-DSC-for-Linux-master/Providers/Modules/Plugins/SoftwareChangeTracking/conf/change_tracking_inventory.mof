@@ -1,0 +1,26 @@
+/*
+@TargetNode='Localhost'
+*/
+
+instance of MSFT_nxPackageResource
+{
+                Name = "*";
+                ResourceId = "[MSFT_nxPackageResource]Inventory";
+                ModuleName = "nx";
+                ModuleVersion = "1.0";
+
+
+};
+
+instance of OMI_ConfigurationDocument
+{
+  DocumentType = "inventory";
+
+     Version="2.0.0";
+     MinimumCompatibleVersion = "2.0.0";
+     Name="InventoryConfig";
+
+
+};
+
+
